@@ -1,5 +1,4 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=c9308be7d36e55fb1a3f391a72820213&amp;type=3#MainMenuStyle"/>
-    <ui:ProgressBar value="22" title="Loading..." name="Loading" class="progress_bar"/>
     <ui:Label text="Label" class="header" style="height: 72px; width: 230px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-left-color: rgb(41, 41, 41); border-right-color: rgb(41, 41, 41); border-top-color: rgb(41, 41, 41); border-bottom-color: rgb(41, 41, 41); align-items: stretch; -unity-text-align: middle-center;"/>
 </ui:UXML>

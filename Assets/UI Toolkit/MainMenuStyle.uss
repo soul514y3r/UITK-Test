@@ -34,17 +34,7 @@
     align-content: auto;
 }
 
-.progress_bar {
-    -unity-background-image-tint-color: rgb(207, 11, 11);
-    --Loading: "Loading.";
-    transition-timing-function: ease-out;
-    transition-duration: 0.2s;
-}
 
-.progress_bar:middle {
-    --Loading: "Loading..";
-    -unity-background-image-tint-color: rgb(0, 192, 34);
-}
 
 .header:hover {
     color: rgb(255, 255, 255);
