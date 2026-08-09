@@ -1,0 +1,58 @@
+[2026-08-09T06:55:01.944Z][INFO] Command-line: /home/soul514y3r/Unity/Hub/Editor/6000.5.7f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager server -s 7732 --ipc-path /tmp/Unity-Upm-7732.sock -l 2 --log-file /home/soul514y3r/Unity/Projects/Testing/Logs/upm.log
+[2026-08-09T06:55:01.977Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-7732.sock).
+[2026-08-09T06:55:01.978Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-7732.
+[2026-08-09T06:55:03.101Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.toolchain.linux-x86_64-linux"
+}
+[2026-08-09T06:55:03.117Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.sdk.linux-x86_64"
+}
+[2026-08-09T06:55:03.222Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-09T06:55:03.234Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-09T06:55:03.410Z][INFO] project:list-packages --> 200 (188 ms)
+[2026-08-09T06:55:04.770Z][INFO] project:list-packages --> 200 (1536 ms)
+[2026-08-09T06:55:04.772Z][INFO] project:add-dependency --> 200 (1671 ms)
+[2026-08-09T06:55:04.842Z][INFO] project:add-dependency --> 200 (1725 ms)
+[2026-08-09T06:55:04.927Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-09T06:55:04.940Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-08-09T06:55:04.949Z][INFO] config:project:get-registries --> 200 (9 ms)
+[2026-08-09T06:55:04.968Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-08-09T06:55:05.028Z][INFO] project:list-packages --> 200 (101 ms)
+[2026-08-09T06:55:05.109Z][WARN] Requested version [17.6.0] for package [com.unity.render-pipelines.universal] overridden by built-in package version [17.5.0].
+[2026-08-09T06:55:05.109Z][WARN] Requested version [4.9.3] for package [com.unity.searcher] overridden by minimum version [4.9.4].
+[2026-08-09T06:55:05.109Z][WARN] Requested version [1.8.14] for package [com.unity.burst] overridden by minimum version [1.8.30].
+[2026-08-09T06:55:05.109Z][WARN] Requested version [3.2.0] for package [com.unity.test-framework.performance] overridden by minimum version [3.5.0].
+[2026-08-09T06:55:05.110Z][INFO] project:resolve-packages --> 200 (142 ms)
+[2026-08-09T06:55:07.400Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.toolchain.linux-x86_64-linux"
+}
+[2026-08-09T06:55:07.410Z][INFO] project:add-dependency <-- Request received
+params: {
+  "packageId": "com.unity.sdk.linux-x86_64"
+}
+[2026-08-09T06:55:07.478Z][INFO] project:add-dependency --> 200 (78 ms)
+[2026-08-09T06:55:07.492Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-09T06:55:07.512Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-09T06:55:07.667Z][INFO] project:add-dependency --> 200 (257 ms)
+[2026-08-09T06:55:07.669Z][INFO] project:list-packages -[2026-08-09T06:55:08.775Z][INFO] Shutting down UnityPackageManager: parent process [5218[2026-08-09T06:55:09.404Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-09T06:55:09.481Z][INFO] project:list-packages --> 200 (77 ms)
+[2026-08-09T06:55:09.728Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-08-09T06:55:09.731Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-08-09T06:55:12.265Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-09T06:55:12.344Z][INFO] project:list-packages --> 200 (79 ms)
+[2026-08-09T06:55:15.979Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-08-09T06:55:16.082Z][INFO] project:list-packages --> 200 (103 ms)
