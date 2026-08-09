@@ -1,4 +1,14 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=c9308be7d36e55fb1a3f391a72820213&amp;type=3#MainMenuStyle"/>
-    <ui:Label text="Label" class="header" style="height: 72px; width: 230px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-left-color: rgb(41, 41, 41); border-right-color: rgb(41, 41, 41); border-top-color: rgb(41, 41, 41); border-bottom-color: rgb(41, 41, 41); align-items: stretch; -unity-text-align: middle-center;"/>
+    <Style src="project://database/Assets/UI%20Toolkit/SettingsMenuStyle.uss?fileID=7433441132597879392&amp;guid=fa83635e49f026ce69f55f5b55e3b73c&amp;type=3#SettingsMenuStyle"/>
+    <ui:VisualElement style="flex-grow: 1; align-self: auto; align-items: auto; align-content: auto; position: absolute; height: 1079px; width: 1913px; bottom: 0; right: 0; top: 0; left: 0;">
+        <ui:Label text="MANANAYOUPI" name="Label" class="header" style="height: 146px; width: 593px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-left-color: rgb(41, 41, 41); border-right-color: rgb(41, 41, 41); border-top-color: rgb(41, 41, 41); border-bottom-color: rgb(41, 41, 41); align-items: stretch; -unity-text-align: middle-center; white-space: nowrap; align-self: center; justify-content: flex-start; align-content: auto; font-size: 78px;"/>
+        <ui:Button text="Start" name="Start" class="button" style="height: 89px; -unity-text-align: middle-center; text-overflow: clip; top: 20%; bottom: auto; transition-duration: 0.2s; width: 255px; font-size: 71px;"/>
+        <ui:Button text="Setting" name="Settings_MainMenu" class="button" style="height: 74px; -unity-text-align: middle-center; text-overflow: clip; top: 21%; bottom: auto; transition-duration: 0.2s; font-size: 61px; width: 258px;"/>
+        <ui:Button text="Exit" name="Exit" class="button" style="height: 65px; -unity-text-align: middle-center; text-overflow: clip; top: 22%; bottom: auto; transition-duration: 0.2s; width: 250px; font-size: 61px;"/>
+    </ui:VisualElement>
+    <ui:TabView class="unity-tab-view" style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; display: flex; visibility: visible; background-color: rgb(152, 152, 152);">
+        <ui:Tab label="Audio" class="unity-tab"/>
+        <ui:Tab label="Graphics" icon-image="" closeable="false" class="unity-tab"/>
+    </ui:TabView>
 </ui:UXML>

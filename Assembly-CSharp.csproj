@@ -62,6 +62,7 @@
     <None Include="Assets/UI Toolkit/progress.uss" />
     <None Include="Assets/MainMenuUXML.uxml" />
     <None Include="Assets/UI Toolkit/MainMenuStyle.uss" />
+    <None Include="Assets/UI Toolkit/SettingsMenuStyle.uss" />
     <None Include="Assets/UI Toolkit/Header.uss" />
   </ItemGroup>
   <ItemGroup>

@@ -34,14 +34,49 @@
     align-content: auto;
 }
 
-
-
 .header:hover {
     color: rgb(255, 255, 255);
     transition-duration: 0.3s;
     transition-timing-function: ease;
-    scale: 1.1 1.1;
-    rotate: 5deg;
+    scale: 1.05 1.05;
+    rotate: 1deg;
     transition-property: all;
     background-size: 40% 40%;
 }
+
+.button {
+    background-size: 60% 60%;
+    background-color: rgb(130, 130, 130);
+    align-self: center;
+    justify-content: flex-start;
+    align-items: center;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-left-color: rgb(24, 24, 24);
+    border-right-color: rgb(24, 24, 24);
+    border-top-color: rgb(24, 24, 24);
+    border-bottom-color: rgb(24, 24, 24);
+    font-size: 45px;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    transition-duration: 0.3s;
+    rotate: 5deg;
+}
+
+.button:active {
+    scale: 0.9 0.9;
+    transition-duration: 0.2s;
+    background-color: rgb(29, 29, 29);
+    color: rgb(161, 161, 161);
+    border-left-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-top-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    rotate: 360deg;
+}
+
+
