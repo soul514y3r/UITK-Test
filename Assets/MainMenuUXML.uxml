@@ -2,13 +2,21 @@
     <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=c9308be7d36e55fb1a3f391a72820213&amp;type=3#MainMenuStyle"/>
     <Style src="project://database/Assets/UI%20Toolkit/SettingsMenuStyle.uss?fileID=7433441132597879392&amp;guid=fa83635e49f026ce69f55f5b55e3b73c&amp;type=3#SettingsMenuStyle"/>
     <ui:VisualElement style="flex-grow: 1; align-self: auto; align-items: auto; align-content: auto; position: absolute; height: 1079px; width: 1913px; bottom: 0; right: 0; top: 0; left: 0;">
-        <ui:Label text="MANANAYOUPI" name="Label" class="header" style="height: 146px; width: 593px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-left-color: rgb(41, 41, 41); border-right-color: rgb(41, 41, 41); border-top-color: rgb(41, 41, 41); border-bottom-color: rgb(41, 41, 41); align-items: stretch; -unity-text-align: middle-center; white-space: nowrap; align-self: center; justify-content: flex-start; align-content: auto; font-size: 78px;"/>
-        <ui:Button text="Start" name="Start" class="button" style="height: 89px; -unity-text-align: middle-center; text-overflow: clip; top: 20%; bottom: auto; transition-duration: 0.2s; width: 255px; font-size: 71px;"/>
-        <ui:Button text="Setting" name="Settings_MainMenu" class="button" style="height: 74px; -unity-text-align: middle-center; text-overflow: clip; top: 21%; bottom: auto; transition-duration: 0.2s; font-size: 61px; width: 258px;"/>
-        <ui:Button text="Exit" name="Exit" class="button" style="height: 65px; -unity-text-align: middle-center; text-overflow: clip; top: 22%; bottom: auto; transition-duration: 0.2s; width: 250px; font-size: 61px;"/>
+        <ui:TabView view-data-key="MainMenu" reorderable="true" name="SettingsMenu" class="unity-tab-view unity-tab_header" style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; display: none; visibility: visible; background-color: rgb(147, 147, 147); font-size: 30px; -unity-font-style: normal; -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 0;">
+            <ui:Tab label="Audio" usage-hints="None" icon-image="" view-data-key="AudioTAb" name="AudioTab" class="unity-tab">
+                <ui:Image source="" scale-mode="ScaleToFit" uv="0,0,1.71,1.3" style="background-image: url(&quot;project://database/Assets/Miku.jpg?fileID=-5418626065145246846&amp;guid=0251323f676325a6383f0ecf4c89d5a4&amp;type=3#Miku_0&quot;); height: 1020px; width: 1917px; -unity-background-scale-mode: scale-to-fit; background-position-x: center; background-position-y: center; -unity-slice-scale: 1px; transform-origin: center; align-self: auto; align-items: auto; flex-direction: column; left: auto;"/>
+                <ui:Button text="Return" name="ReturnButtonSFX" class="button" style="position: absolute; top: -58px;"/>
+            </ui:Tab>
+            <ui:Tab label="Graphics" icon-image="" closeable="false" view-data-key="GraphicsTab" name="GraphicsTab" class="unity-tab">
+                <ui:Image style="background-image: url(&quot;project://database/Assets/Screenshot_20260809_162342.png?fileID=1979090951576977479&amp;guid=94cf490a99c7fd590a552b9bc57ad16a&amp;type=3#Screenshot_20260809_162342_0&quot;); -unity-background-scale-mode: scale-to-fit; background-color: rgb(255, 255, 255); height: 1020px;"/>
+            </ui:Tab>
+            <ui:Button text="Return" name="ReturnButtonGRA" class="button" style="position: absolute; top: -58px; flex-wrap: wrap; display: flex;"/>
+        </ui:TabView>
+        <ui:VisualElement name="MainScreenRoot" style="flex-grow: 1; position: relative; display: flex; height: 1076px; width: 1918px;">
+            <ui:Label text="MENTHUTHUYOUPI" name="Label" class="header" style="height: 146px; width: 753px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-left-color: rgb(41, 41, 41); border-right-color: rgb(41, 41, 41); border-top-color: rgb(41, 41, 41); border-bottom-color: rgb(41, 41, 41); align-items: stretch; -unity-text-align: middle-center; white-space: nowrap; align-self: center; justify-content: flex-start; align-content: auto; font-size: 78px;"/>
+            <ui:Button text="Start" name="Start" class="button" style="height: 89px; -unity-text-align: middle-center; text-overflow: clip; top: 20%; bottom: auto; transition-duration: 0.2s; width: 255px; font-size: 71px;"/>
+            <ui:Button text="Setting" name="Settings_MainMenu" view-data-key="Settings" class="button" style="height: 74px; -unity-text-align: middle-center; text-overflow: clip; top: 21%; bottom: auto; transition-duration: 0.2s; font-size: 61px; width: 258px;"/>
+            <ui:Button text="Exit" name="Exit" class="button" style="height: 65px; -unity-text-align: middle-center; text-overflow: clip; top: 22%; bottom: auto; transition-duration: 0.2s; width: 250px; font-size: 61px;"/>
+        </ui:VisualElement>
     </ui:VisualElement>
-    <ui:TabView class="unity-tab-view" style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; display: flex; visibility: visible; background-color: rgb(152, 152, 152);">
-        <ui:Tab label="Audio" class="unity-tab"/>
-        <ui:Tab label="Graphics" icon-image="" closeable="false" class="unity-tab"/>
-    </ui:TabView>
 </ui:UXML>

@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Bitpacked.cs" />
+    <Compile Include="Assets/Scripts/SettingsMenuSwitchScript.cs" />
     <Compile Include="Assets/Scripts/SaveData.cs" />
     <Compile Include="Assets/Scripts/FollowPlayerScript.cs" />
     <Compile Include="Assets/Scripts/SaveHandlerScript.cs" />
