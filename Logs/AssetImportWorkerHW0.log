@@ -3,37 +3,37 @@ Branch:                  6000.5/staging
 Build type:              Release
 Batch mode:              YES
 System name:             Linux
-Distro version:          #1 SMP PREEMPT_DYNAMIC Mon Jul 20 03:39:43 UTC 2026
-Kernel version:          7.1.4-200.nobara.fc44.x86_64
+Distro version:          #1 SMP PREEMPT_DYNAMIC Sun Aug 23 04:02:57 UTC 2026
+Kernel version:          7.2.0-202.nobara.fc44.x86_64
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
-Available memory:        15771 MB
-Date:                    2026-08-09T16:25:28Z
+Available memory:        15770 MB
+Date:                    2026-08-26T14:13:22Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-soul514y3r" at "2026-08-09T16:25:28.668744Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-soul514y3r" at "2026-08-26T14:13:22.702995Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-soul514y3r"
 [Licensing::IpcConnector] LicenseClient-soul514y3r channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-soul514y3r-6000.5.7" at "2026-08-09T16:25:28.669971Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-soul514y3r-6000.5.7" at "2026-08-26T14:13:22.704236Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              5b3dc486fa264f56946a297d65f0816c
-  Correlation Id:          8d762c1b344d5dfbf36067161997012a
-  External correlation Id: 2186287157130858597
+  Session Id:              82c7e17d9af243b78e384c8619daa4c1
+  Correlation Id:          033724c057205ddbdef196d1ff7d192e
+  External correlation Id: 4042509507962148630
   Machine Id:              CLXAWEl1GSjeYbU5y6/8MBaKse4=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-soul514y3r-6000.5.7" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-soul514y3r-6000.5.7-notifications" at "2026-08-09T16:25:28.672428Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-soul514y3r-6000.5.7-notifications" at "2026-08-26T14:13:22.705575Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 3840 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
-Unity
+unityhub-unity-editor-6000.5.7f1
 -adb2
 -batchMode
 -noUpm
@@ -44,9 +44,9 @@ AssetImportWorkerHW0
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-32815
+39339
 -parentPid
-56371
+54943
 -analyticsCloudUserId
 anonymous
 -analyticsCloudProjectId
@@ -107,12 +107,12 @@ Successfully changed project path to: /home/soul514y3r/Unity/Projects/Testing
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [140484050304448]  Target information:
+Player connection [140303274950080]  Target information:
 
-Player connection [140484050304448]  * "[IP] 192.168.10.171 [Port] 0 [Flags] 2 [Guid] 3418667964 [EditorId] 3418667964 [Version] 1048832 [Id] LinuxEditor(16,192.168.10.171) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [140303274950080]  * "[IP] 192.168.10.171 [Port] 0 [Flags] 2 [Guid] 242629994 [EditorId] 242629994 [Version] 1048832 [Id] LinuxEditor(16,192.168.10.171) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [140484050304448] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [140484050304448] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140303274950080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140303274950080] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -124,6 +124,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Web.asset`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `m_BuildTarget`, value `20`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Refreshing native plugins compatible for Editor in 30,13 ms, found 1 plugins.
 Initialize engine version: 6000.5.7f1 (017862109af0)
 [Subsystems] Discovering subsystems at path /home/soul514y3r/Unity/Hub/Editor/6000.5.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /home/soul514y3r/Unity/Projects/Testing/Assets
@@ -167,8 +172,8 @@ GfxDevice: creating device client; kGfxThreadingModeThreaded
 [vulkan] Loaded instance function vkGetPhysicalDeviceProperties
 [vulkan] Loaded instance function vkEnumeratePhysicalDevices
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x5572cc2173c0 [0]: "NVIDIA GeForce RTX 3060" deviceType=2 vendorID=10de deviceID=2504
-[Vulkan init] Physical Device 0x5572cc2190a0 [1]: "llvmpipe (LLVM 22.1.8, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
+[Vulkan init] Physical Device 0x555933dd6260 [0]: "NVIDIA GeForce RTX 3060" deviceType=2 vendorID=10de deviceID=2504
+[Vulkan init] Physical Device 0x555933dd6290 [1]: "llvmpipe (LLVM 22.1.8, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
 Vulkan detection: 2
 [Vulkan init] extensions: count=27
 [Vulkan init] extensions: name=VK_EXT_acquire_drm_display [enabled=0, external=0]
@@ -260,9 +265,9 @@ Vulkan detection: 2
 [vulkan] Loaded instance function vkCmdEndDebugUtilsLabelEXT
 [vulkan] Loaded instance function vkCmdInsertDebugUtilsLabelEXT
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x5572cc1b86a0 [0]: "NVIDIA GeForce RTX 3060" deviceType=2 vendorID=10de deviceID=2504
-[Vulkan init] Physical Device 0x5572cc1b8a30 [1]: "llvmpipe (LLVM 22.1.8, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
-[Vulkan init] Selected physical device 0x5572cc1b86a0
+[Vulkan init] Physical Device 0x555933e11d20 [0]: "NVIDIA GeForce RTX 3060" deviceType=2 vendorID=10de deviceID=2504
+[Vulkan init] Physical Device 0x555933e0edf0 [1]: "llvmpipe (LLVM 22.1.8, 256 bits)" deviceType=4 vendorID=10005 deviceID=0
+[Vulkan init] Selected physical device 0x555933e11d20
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=273
 [Vulkan init] extensions: name=VK_AMD_buffer_marker [enabled=0, external=0]
@@ -686,22 +691,168 @@ Vulkan API version 1.1.0 (1.4.329 supported by driver, 1.1.0 requested)
 Vulkan vendor=[NVIDIA] id=[10de]
 Vulkan renderer=[NVIDIA GeForce RTX 3060] id=[2504]
 Vulkan device type 2
-Vulkan driverversion=[595.336.0 (0x94d50000)] uint=[-1797980160]
-Vulkan driverLibraryString=[NVIDIA (4), 595.84]
-Vulkan PSO: Cache data successfully loaded [size=447761,path=/tmp/DefaultCompany/Testing/vulkan_pso_cache.bin]
+Vulkan driverversion=[595.364.448 (0x94d6c1c0)] uint=[-1797865024]
+Vulkan driverLibraryString=[NVIDIA (4), 595.91.07]
+Got setting from build profile YAML, name `Color Space`, value `1`
+Vulkan PSO: Cache data successfully loaded [size=444330,path=/tmp/DefaultCompany/Testing/vulkan_pso_cache.bin]
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
 Initialize mono
 Mono path[0] = '/home/soul514y3r/Unity/Hub/Editor/6000.5.7f1/Editor/Data/Managed'
 Mono path[1] = '/home/soul514y3r/Unity/Hub/Editor/6000.5.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = '/home/soul514y3r/Unity/Hub/Editor/6000.5.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/soul514y3r/Unity/Hub/Editor/6000.5.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56113
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56254
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/soul514y3r/Unity/Hub/Editor/6000.5.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/soul514y3r/Unity/Hub/Editor/6000.5.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,000702 seconds.
+Registered in 0,000683 seconds.
 Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -709,32 +860,93 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,281 seconds
-Domain Reload Profiling: 563ms
-	BeginReloadAssembly (50ms)
+- Finished resetting the current domain, in  0,282 seconds
+Domain Reload Profiling: 566ms
+	BeginReloadAssembly (57ms)
 	RebuildCommonClasses (3ms)
-	RebuildNativeTypeToScriptingClass (8ms)
+	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (49ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (119ms)
-	FinalizeReload (282ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (56ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (116ms)
+	FinalizeReload (283ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (68ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (65ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -745,14 +957,10 @@ Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
+Got setting from build profile YAML, name `m_Development`, value `0`
+Got setting from build profile YAML, name `Color Space`, value `1`
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -762,128 +970,137 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,514 seconds
-Domain Reload Profiling: 1000ms
-	BeginReloadAssembly (88ms)
-		DisableScriptedObjects (4ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (6ms)
+- Finished resetting the current domain, in  1,093 seconds
+Domain Reload Profiling: 1615ms
+	BeginReloadAssembly (91ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (159ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (102ms)
-			BuildScriptInfoCaches (43ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (189ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (103ms)
+			BuildScriptInfoCaches (44ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (514ms)
+	FinalizeReload (1094ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (210ms)
-			ProcessInitializeOnLoadMethodAttributes (130ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 AutoLocale: current locale expects 'C' but got 'sv_SE.utf8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Error
-Unloading 7368 unused Assets / (6.3 MB). Loaded Objects now: 8238.
-Memory consumption went from 212.8 MB to 206.5 MB.
-Total: 13.540908 ms (FindLiveObjects: 0.529048 ms CreateObjectMapping: 2.342617 ms MarkObjects: 7.977460 ms  DeleteObjects: 2.690781 ms)
+Unloading 7373 unused Assets / (5.9 MB). Loaded Objects now: 8250.
+Memory consumption went from 215.1 MB to 209.2 MB.
+Total: 10.491583 ms (FindLiveObjects: 0.492027 ms CreateObjectMapping: 1.422471 ms MarkObjects: 5.243163 ms  DeleteObjects: 3.333056 ms)
 
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 8238.
-Memory consumption went from 205.8 MB to 203.1 MB.
-Total: 9.894147 ms (FindLiveObjects: 0.445320 ms CreateObjectMapping: 0.927062 ms MarkObjects: 8.131988 ms  DeleteObjects: 0.388771 ms)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 8250.
+Memory consumption went from 207.9 MB to 205.3 MB.
+Total: 7.485972 ms (FindLiveObjects: 0.383065 ms CreateObjectMapping: 0.609830 ms MarkObjects: 6.243554 ms  DeleteObjects: 0.249054 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8250.
+Memory consumption went from 209.0 MB to 206.4 MB.
+Total: 5.659408 ms (FindLiveObjects: 0.466535 ms CreateObjectMapping: 0.949047 ms MarkObjects: 4.010519 ms  DeleteObjects: 0.232625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
 ========================================================================
 Received Import Request.
-  Time of request: 2026-08-09T16:25:33.729813Z
-  Time since last request: 13983.74786627799949 seconds.
-  importAddress: GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: '02e3a973f71f61658808d73e9f54d6d6') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71cbde7c87816fd0e0157768e0db4391 DependenciesID=01685af40f2942cd0ad70c49e2170b93 StaticDependenciesID=87d1575bad8178e4015fcb4e080e77f2 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-09T16:25:33.776131Z
-  Time since last request: 0.000249421 seconds.
-  importAddress: GUID: fa83635e49f026ce69f55f5b55e3b73c - Path: Assets/UI Toolkit/SettingsMenuStyle.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: fa83635e49f026ce69f55f5b55e3b73c - Path: Assets/UI Toolkit/SettingsMenuStyle.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: fa83635e49f026ce69f55f5b55e3b73c' -> (Import Result ID: 'c813a1e12b2beb17c19575d05888c2d4') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f00b04b2530c5c40deab933734f636a4 DependenciesID=bdf43829e138aea57a6fcd7a840ae9f3 StaticDependenciesID=aa8fb6f242e4fd727dc3b8ecf20d5dfa 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-09T16:25:33.799205Z
-  Time since last request: 0.000218269 seconds.
-  importAddress: GUID: 5d50bb07ff8c68d80b763f11b4e9a1c7 - Path: Assets/Scripts/SettingsMenuSwitchScript.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 5d50bb07ff8c68d80b763f11b4e9a1c7 - Path: Assets/Scripts/SettingsMenuSwitchScript.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 5d50bb07ff8c68d80b763f11b4e9a1c7' -> (Import Result ID: '10690da7591e75d1719b4271709768a0') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82ead02981b4adb057b89dd2743b72e9 DependenciesID=8d5cd993c6ea662937cb08b22c5ededd StaticDependenciesID=02b622f7b9abeabdb657c85873ff9711 
+  Time of request: 2026-08-26T14:13:33.046302Z
+  Time since last request: 10403.9468014769991 seconds.
+  importAddress: GUID: 93bbac6472b1ba70ca0c041cdbceb73c - Path: Assets/Scripts/OpenTest.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 93bbac6472b1ba70ca0c041cdbceb73c - Path: Assets/Scripts/OpenTest.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 93bbac6472b1ba70ca0c041cdbceb73c' -> (Import Result ID: '2d3034a4b593ca9a8b8b5a591735f7b1') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f2b8088949442c03b8e3d856c0ef179 DependenciesID=ce2ba1bc33d964552d2d9dc0e9edc24c StaticDependenciesID=02520b9681dc92c97f0c43e35fb3a58c 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-08-09T16:25:33.816525Z
-  Time since last request: 0.000196957 seconds.
-  importAddress: GUID: c9308be7d36e55fb1a3f391a72820213 - Path: Assets/UI Toolkit/MainMenuStyle.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: c9308be7d36e55fb1a3f391a72820213 - Path: Assets/UI Toolkit/MainMenuStyle.uss - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: c9308be7d36e55fb1a3f391a72820213' -> (Import Result ID: '299744ce1af73f189286525a8c18b07f') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=831735d348f50be5a39898bd52268f76 DependenciesID=243a9088bfa8eef4e2e9586608927f26 StaticDependenciesID=a464ad28451df4e9a2aab048b0a6aba6 
+  Time of request: 2026-08-26T14:13:33.099281Z
+  Time since last request: 0.001333374 seconds.
+  importAddress: GUID: fa7bdd7312c9955d5b353e4f29be7108 - Path: Assets/Build/Builds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fa7bdd7312c9955d5b353e4f29be7108 - Path: Assets/Build/Builds - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fa7bdd7312c9955d5b353e4f29be7108' -> (Import Result ID: 'a41aeba90278054d36223f13fef92a9a') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=086ce772571358a99a1809a45e4fd356 DependenciesID=5a4106f6420e60dca6e6b5383d627ab1 StaticDependenciesID=a4af48f38ae15298a759d18d55ab873f 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time of request: 2026-08-09T16:25:33.82693Z
-  Time since last request: 0.000200284 seconds.
-  importAddress: GUID: 14342c5d42ab2d391ad8cc1230418eb5 - Path: Assets/MainMenuUXML.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 14342c5d42ab2d391ad8cc1230418eb5 - Path: Assets/MainMenuUXML.uxml - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 14342c5d42ab2d391ad8cc1230418eb5' -> (Import Result ID: 'e02ee28c4336aa9f3f85b08ca94c2379') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f39a56262be55b83d465d94ecff6ee23 DependenciesID=df16133ce7b6e61d17c8a26362bdc7ff StaticDependenciesID=3f6c181a1abbbefac951e54fd601477f 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-09T16:25:34.549937Z
-  Time since last request: 0.70904684 seconds.
-  importAddress: GUID: 14342c5d42ab2d391ad8cc1230418eb5 - Path: Assets/MainMenuUXML.uxml - Importer: PreviewImporter
-Importing 'GUID: 14342c5d42ab2d391ad8cc1230418eb5 - Path: Assets/MainMenuUXML.uxml - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 14342c5d42ab2d391ad8cc1230418eb5' -> (Import Result ID: '17fb1b9e0564a99aeaac2f17150357bd') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10be36887e43f9dffdfe07e85652ae1b DependenciesID=22d2d90256f86c0409a1da01a00973d2 StaticDependenciesID=9ba624987c8561952380d66e8cab0665 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-09T16:25:40.44934Z
-  Time since last request: 5.882234489 seconds.
-  importAddress: GUID: 4054f428fae8c55f0a122c88be57a313 - Path: Assets/Hatsune_Miku_-_Ievan_Polkka_(mp3.pm).mp3 - Importer: PreviewImporter
-Importing 'GUID: 4054f428fae8c55f0a122c88be57a313 - Path: Assets/Hatsune_Miku_-_Ievan_Polkka_(mp3.pm).mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 4054f428fae8c55f0a122c88be57a313' -> (Import Result ID: '512156720ece04a2682c71d4347ab632') in 0.051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9308a03ff08dd2fd52253bf170a5ff22 DependenciesID=512c64b7c3d1026160743e81fc716ab4 StaticDependenciesID=41a6bcc5a5168255133dc43938beb972 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-09T16:25:41.415615Z
-  Time since last request: 0.901443965 seconds.
-  importAddress: GUID: 4054f428fae8c55f0a122c88be57a313 - Path: Assets/Hatsune_Miku_-_Ievan_Polkka_(mp3.pm).mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 4054f428fae8c55f0a122c88be57a313 - Path: Assets/Hatsune_Miku_-_Ievan_Polkka_(mp3.pm).mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 4054f428fae8c55f0a122c88be57a313' -> (Import Result ID: 'bc53aebc068cb8cb79a0b4a8018c6c27') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d400252c0e762416e321031de756e6c DependenciesID=354df92e7feab21e1149f5f075d08445 StaticDependenciesID=1f21157f22f9a87bcc5c2138eb028439 
+  Time of request: 2026-08-26T14:13:33.109097Z
+  Time since last request: 0.001017741 seconds.
+  importAddress: GUID: 3c7b2707e3bbfbf11b6c8a76d9ec4f2d - Path: Assets/Build - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3c7b2707e3bbfbf11b6c8a76d9ec4f2d - Path: Assets/Build - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3c7b2707e3bbfbf11b6c8a76d9ec4f2d' -> (Import Result ID: '475213b88adee7b07624687d842df4e1') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=151219d698de77a75b99fd018294a2c9 DependenciesID=26839c4b2ce1cbb61fba29576334153b StaticDependenciesID=58d23d327bc41396392e9d4495c33c6d 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 8252.
+Memory consumption went from 210.8 MB to 208.2 MB.
+Total: 6.779388 ms (FindLiveObjects: 0.309163 ms CreateObjectMapping: 0.504102 ms MarkObjects: 5.658133 ms  DeleteObjects: 0.307008 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8252.
+Memory consumption went from 211.9 MB to 209.2 MB.
+Total: 5.741253 ms (FindLiveObjects: 0.303057 ms CreateObjectMapping: 0.449318 ms MarkObjects: 4.680267 ms  DeleteObjects: 0.308056 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
 Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -893,54 +1110,251 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.496 seconds
-Domain Reload Profiling: 1050ms
-	BeginReloadAssembly (139ms)
-		DisableScriptedObjects (8ms)
-		CreateAndSetChildDomain (47ms)
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 1551ms
+	BeginReloadAssembly (137ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (42ms)
 	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (375ms)
-		LoadAssemblies (203ms)
-		AnalyzeDomain (137ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (888ms)
+		LoadAssemblies (840ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (486ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7370 unused Assets / (5.4 MB). Loaded Objects now: 8260.
+Memory consumption went from 217.0 MB to 211.6 MB.
+Total: 8.206947 ms (FindLiveObjects: 0.442585 ms CreateObjectMapping: 1.955133 ms MarkObjects: 4.322291 ms  DeleteObjects: 1.486433 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.451 seconds
+Domain Reload Profiling: 953ms
+	BeginReloadAssembly (125ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (173ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (452ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7370 unused Assets / (6.7 MB). Loaded Objects now: 8263.
+Memory consumption went from 221.5 MB to 214.8 MB.
+Total: 8.237101 ms (FindLiveObjects: 0.424162 ms CreateObjectMapping: 1.210028 ms MarkObjects: 4.596260 ms  DeleteObjects: 2.005574 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8263.
+Memory consumption went from 218.3 MB to 215.7 MB.
+Total: 6.050021 ms (FindLiveObjects: 0.453258 ms CreateObjectMapping: 1.006900 ms MarkObjects: 4.282319 ms  DeleteObjects: 0.306876 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8263.
+Memory consumption went from 219.4 MB to 216.8 MB.
+Total: 20.022474 ms (FindLiveObjects: 1.508301 ms CreateObjectMapping: 1.313805 ms MarkObjects: 16.795134 ms  DeleteObjects: 0.403443 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 1140ms
+	BeginReloadAssembly (187ms)
+		DisableScriptedObjects (26ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (435ms)
+		LoadAssemblies (278ms)
+		AnalyzeDomain (139ms)
 			TypeCache.Refresh (10ms)
 			BuildScriptInfoCaches (123ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (497ms)
+	FinalizeReload (464ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7366 unused Assets / (4.6 MB). Loaded Objects now: 8253.
-Memory consumption went from 214.7 MB to 210.1 MB.
-Total: 7.289571 ms (FindLiveObjects: 0.445298 ms CreateObjectMapping: 1.289200 ms MarkObjects: 4.312340 ms  DeleteObjects: 1.241517 ms)
+Unloading 7370 unused Assets / (5.4 MB). Loaded Objects now: 8266.
+Memory consumption went from 224.8 MB to 219.3 MB.
+Total: 7.809216 ms (FindLiveObjects: 0.466290 ms CreateObjectMapping: 1.232456 ms MarkObjects: 4.478119 ms  DeleteObjects: 1.631205 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 8253.
-Memory consumption went from 210.5 MB to 207.9 MB.
-Total: 5.875933 ms (FindLiveObjects: 0.481769 ms CreateObjectMapping: 0.425309 ms MarkObjects: 4.700704 ms  DeleteObjects: 0.267423 ms)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8266.
+Memory consumption went from 221.5 MB to 218.9 MB.
+Total: 5.894790 ms (FindLiveObjects: 0.326158 ms CreateObjectMapping: 0.764112 ms MarkObjects: 4.531600 ms  DeleteObjects: 0.272361 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 [Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
 Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -950,45 +1364,70 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.500 seconds
-Domain Reload Profiling: 1018ms
-	BeginReloadAssembly (126ms)
-		DisableScriptedObjects (9ms)
-		CreateAndSetChildDomain (39ms)
+- Finished resetting the current domain, in  0.457 seconds
+Domain Reload Profiling: 960ms
+	BeginReloadAssembly (129ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (33ms)
 	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (352ms)
-		LoadAssemblies (176ms)
-		AnalyzeDomain (134ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (171ms)
+		AnalyzeDomain (124ms)
 			TypeCache.Refresh (9ms)
-			BuildScriptInfoCaches (121ms)
+			BuildScriptInfoCaches (111ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (501ms)
+	FinalizeReload (457ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7366 unused Assets / (7.1 MB). Loaded Objects now: 8256.
-Memory consumption went from 214.9 MB to 207.8 MB.
-Total: 8.013799 ms (FindLiveObjects: 0.451692 ms CreateObjectMapping: 1.200320 ms MarkObjects: 4.331202 ms  DeleteObjects: 2.030171 ms)
+Unloading 7370 unused Assets / (5.3 MB). Loaded Objects now: 8269.
+Memory consumption went from 226.9 MB to 221.6 MB.
+Total: 10.070453 ms (FindLiveObjects: 0.594950 ms CreateObjectMapping: 1.235867 ms MarkObjects: 6.659232 ms  DeleteObjects: 1.579477 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-[Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
 Native extension for LinuxStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -998,59 +1437,358 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.475 seconds
-Domain Reload Profiling: 1009ms
-	BeginReloadAssembly (116ms)
-		DisableScriptedObjects (9ms)
+- Finished resetting the current domain, in  0.466 seconds
+Domain Reload Profiling: 973ms
+	BeginReloadAssembly (125ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (177ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (9ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (466ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7370 unused Assets / (5.5 MB). Loaded Objects now: 8272.
+Memory consumption went from 228.0 MB to 222.5 MB.
+Total: 7.935754 ms (FindLiveObjects: 0.475149 ms CreateObjectMapping: 1.171574 ms MarkObjects: 4.599373 ms  DeleteObjects: 1.688938 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 980ms
+	BeginReloadAssembly (126ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (189ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (9ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (460ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7370 unused Assets / (5.4 MB). Loaded Objects now: 8275.
+Memory consumption went from 229.2 MB to 223.7 MB.
+Total: 7.643962 ms (FindLiveObjects: 0.419701 ms CreateObjectMapping: 1.155346 ms MarkObjects: 4.538467 ms  DeleteObjects: 1.529980 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.443 seconds
+Domain Reload Profiling: 939ms
+	BeginReloadAssembly (120ms)
+		DisableScriptedObjects (15ms)
 		CreateAndSetChildDomain (32ms)
 	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (370ms)
-		LoadAssemblies (185ms)
-		AnalyzeDomain (131ms)
-			TypeCache.Refresh (10ms)
-			BuildScriptInfoCaches (116ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (169ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (9ms)
+			BuildScriptInfoCaches (112ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (476ms)
+	FinalizeReload (443ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (198ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7366 unused Assets / (5.9 MB). Loaded Objects now: 8259.
-Memory consumption went from 215.1 MB to 209.1 MB.
-Total: 13.100274 ms (FindLiveObjects: 0.665219 ms CreateObjectMapping: 2.625486 ms MarkObjects: 7.702657 ms  DeleteObjects: 2.106270 ms)
+Unloading 7370 unused Assets / (5.6 MB). Loaded Objects now: 8278.
+Memory consumption went from 230.3 MB to 224.7 MB.
+Total: 9.846072 ms (FindLiveObjects: 0.496616 ms CreateObjectMapping: 1.240987 ms MarkObjects: 6.348500 ms  DeleteObjects: 1.759429 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 1002ms
+	BeginReloadAssembly (127ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (368ms)
+		LoadAssemblies (185ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (466ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7370 unused Assets / (5.4 MB). Loaded Objects now: 8281.
+Memory consumption went from 231.4 MB to 226.0 MB.
+Total: 7.603822 ms (FindLiveObjects: 0.431049 ms CreateObjectMapping: 1.273105 ms MarkObjects: 4.373407 ms  DeleteObjects: 1.525662 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+You may not pass in objects that are already persistent
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForgetInternal (string,UnityEngine.Object[],bool)
+UnityEditorInternal.InternalEditorUtility:SaveToSerializedFileAndForget (UnityEngine.Object[],string,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/InternalEditorUtility.bindings.cs:378)
+UnityEditor.Build.Profile.BuildProfileContext:Save () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:991)
+UnityEditor.Build.Profile.BuildProfileContext:OnDisable () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:483)
+
+[/home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs line 991]
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor () (at /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs:248)
+
+(Filename: /home/bokken/build/output/unity/unity/Editor/Mono/BuildProfile/BuildProfileContext.cs Line: 248)
+
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.466 seconds
+Domain Reload Profiling: 986ms
+	BeginReloadAssembly (125ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (355ms)
+		LoadAssemblies (186ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (11ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (466ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7370 unused Assets / (5.2 MB). Loaded Objects now: 8284.
+Memory consumption went from 232.5 MB to 227.3 MB.
+Total: 8.103107 ms (FindLiveObjects: 0.485479 ms CreateObjectMapping: 1.194936 ms MarkObjects: 4.946802 ms  DeleteObjects: 1.475385 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 8259.
-Memory consumption went from 210.9 MB to 208.3 MB.
-Total: 6.196146 ms (FindLiveObjects: 0.316654 ms CreateObjectMapping: 0.455668 ms MarkObjects: 5.115406 ms  DeleteObjects: 0.307889 ms)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8284.
+Memory consumption went from 229.3 MB to 226.7 MB.
+Total: 6.177035 ms (FindLiveObjects: 0.352001 ms CreateObjectMapping: 0.742163 ms MarkObjects: 4.747672 ms  DeleteObjects: 0.334423 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
 ========================================================================
-Received Import Request.
-  Time of request: 2026-08-09T16:34:58.408016Z
-  Time since last request: 556.97067341499996 seconds.
-  importAddress: GUID: 14342c5d42ab2d391ad8cc1230418eb5 - Path: Assets/MainMenuUXML.uxml - Importer: PreviewImporter
-Importing 'GUID: 14342c5d42ab2d391ad8cc1230418eb5 - Path: Assets/MainMenuUXML.uxml - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 14342c5d42ab2d391ad8cc1230418eb5' -> (Import Result ID: '357784bd44995c514fdd8b08cbd936c7') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10be36887e43f9dffdfe07e85652ae1b DependenciesID=2d81ba4cba6394e5f2ee341043c84aa9 StaticDependenciesID=f713fe857042408088286f655bcc0831 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-Editor requested this worker to shutdown with reason: Editor is closing down
+Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-AssetImportWorker is now disconnected from the server
-Process exiting
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8284.
+Memory consumption went from 230.3 MB to 227.7 MB.
+Total: 5.603977 ms (FindLiveObjects: 0.268363 ms CreateObjectMapping: 0.454703 ms MarkObjects: 4.622502 ms  DeleteObjects: 0.257875 ms)
 
-SDL leaked 2 allocations
-Turn on UNITY_SDL_ALLOCATION_TRACKING for detailed information.
-Vulkan PSO: data extracted [new size=464359, old size=447761, incomplete=0]
-Vulkan PSO: Saved size[464359] path[/tmp/DefaultCompany/Testing/vulkan_pso_cache.bin] success=1 headerChanged=0 sizeChanged=1
-Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (2.6 MB). Loaded Objects now: 8284.
+Memory consumption went from 231.3 MB to 228.7 MB.
+Total: 7.155409 ms (FindLiveObjects: 0.328423 ms CreateObjectMapping: 0.456486 ms MarkObjects: 6.079179 ms  DeleteObjects: 0.290814 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200

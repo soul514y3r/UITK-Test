@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
 
 public class SettingsMenuSwitchScript : MonoBehaviour
@@ -10,7 +11,6 @@ public class SettingsMenuSwitchScript : MonoBehaviour
     TabView tabView;
 
     Button butSFX;
-    Button butGRA;
 
     AudioSource audioSource;
 
@@ -23,6 +23,8 @@ public class SettingsMenuSwitchScript : MonoBehaviour
         panelRenderer.RegisterUIReloadCallback(OnUIReload);
 
         audioSource = gameObject.GetComponent<AudioSource>();
+
+        UnityEngine.Cursor.lockState = CursorLockMode.Confined;
 
 
         
@@ -39,11 +41,13 @@ public class SettingsMenuSwitchScript : MonoBehaviour
     Settings = Root.Q<Button>("Settings_MainMenu");
     tabView = Root.Q<TabView>("SettingsMenu");
     butSFX = tabView.Q<Button>("ReturnButtonSFX");
-    butGRA = tabView.Q<Button>("ReturnButtonGRA");
+    
+    Debug.Log(Root.focusController.focusedElement);
+    EventSystem.current.SetSelectedGameObject(null);
+    EventSystem.current.SetSelectedGameObject(gameObject);
 
         
     Settings.clicked += SettingSwitch;
-    butGRA.clicked += SettingSwitch;
     butSFX.clicked += SettingSwitch;
     tabView.activeTabChanged += OnActiveTabChanged;
 

@@ -12,8 +12,8 @@ public class Bitpacked : ScriptableObject
         [BitpackInt(2)] public bool sflag;
         [BitpackInt(2)] public bool flag;
         [BitpackInt(2)] public bool lag;
-        // [BitpackInt(2)] public bool ag;
-        // [BitpackInt(2)] public bool g;
+        [BitpackInt(2)] public bool ag;
+        //[BitpackInt(2)] public bool g;
         [BitpackInt(2)] public byte start;
 
     [BitpackInt(1)] public bool straped;

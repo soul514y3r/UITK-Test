@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d2476b457d4d7d893d9ffdfffd2d4b, type: 3}
   m_Name: BitpackedData
   m_EditorClassIdentifier: Assembly-CSharp::Bitpacked
-  startflag: 1
-  stopflag: 1
-  stoflag: 1
-  stflag: 1
-  sflag: 1
-  flag: 1
-  lag: 1
-  start: 127
+  startflag: 0
+  stopflag: 0
+  stoflag: 0
+  stflag: 0
+  sflag: 0
+  flag: 0
+  lag: 0
+  ag: 0
+  start: 0
   straped: 1
   loaded: 0
   Ready: 1
