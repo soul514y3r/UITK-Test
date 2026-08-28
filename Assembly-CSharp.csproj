@@ -60,6 +60,7 @@
     <Compile Include="Assets/Scripts/SaveData.cs" />
     <Compile Include="Assets/Scripts/FollowPlayerScript.cs" />
     <Compile Include="Assets/Scripts/SaveHandlerScript.cs" />
+    <Compile Include="Assets/Scripts/DialogueScripy.cs" />
     <Compile Include="Assets/Scripts/Handles.cs" />
   </ItemGroup>
   <ItemGroup>
